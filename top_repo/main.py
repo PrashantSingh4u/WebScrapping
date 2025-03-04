@@ -1,4 +1,4 @@
-import requests
+import requests #importing requests module
 from bs4 import BeautifulSoup
 topics_url = "https://github.com/topics"
 response = requests.get(topics_url)
